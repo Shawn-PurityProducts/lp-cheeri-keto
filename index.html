@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>Cheeri · Landing Page</title>
+<!-- Microsoft Clarity (analytics + heatmaps; fires on every load — mobile & desktop) -->
+<script type="text/javascript">
+  (function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+  })(window, document, "clarity", "script", "rccp7p3qum");
+</script>
+<!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '7161920017238575');
+  fbq('track', 'PageView');
+  fbq('track', 'ViewContent', {
+    content_name: 'Cheerific Keto Landing',
+    content_category: 'Landing Page',
+    content_type: 'product'
+  });
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=7161920017238575&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GT-NBJFM83X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'GT-NBJFM83X');
+</script>
+<!-- End Google tag -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    /* Cheeri brand */
+    --paper: #f8f3e7;        /* primary warm cream background */
+    --paper-2: #f2eceb;      /* alt soft pink-cream */
+    --paper-3: #ffffff;      /* pure white */
+    --paper-4: #e2dcd2;      /* warm taupe */
+
+    --ink: #300804;          /* deepest cocoa, primary text */
+    --ink-soft: #4c130a;     /* dark chocolate, secondary text */
+    --ink-mid: #833612;      /* mid chocolate */
+
+    --rule: rgba(48, 8, 4, 0.10);
+
+    --accent: #4c130a;       /* chocolate brown, primary CTA */
+    --accent-on: #f8f3e7;    /* cream on chocolate */
+    --accent-soft: #e2dcd2;  /* soft warm taupe band */
+
+    --green: #a6c561;        /* superfood green accent */
+    --green-deep: #587420;
+    --brand-green: #18a249;  /* primary brand green */
+    --sky: #97e1ee;          /* light blue accent */
+    --sky-deep: #8bb6c9;
+
+    /* Striped placeholder fills */
+    --ph-1: #ece4d4;
+    --ph-2: #e2d8c2;
+
+    /* Type system */
+    --font-display: 'Rubik', system-ui, sans-serif;              /* headlines, uppercase bold */
+    --font-sans: 'DM Sans', -apple-system, system-ui, sans-serif; /* body, semibold */
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /* Mobile-first: this design is intended for ~390px and scales up.
+     On wide viewports, frame the content like a phone preview. */
+  .device-frame {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, #e2dcd2 0%, #c9bfb0 100%);
+  }
+  .device-inner {
+    width: 100%;
+    max-width: 430px;
+    background: var(--paper);
+    min-height: 100vh;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.04), 0 24px 60px rgba(20, 14, 8, 0.12);
+    overflow: hidden;
+  }
+  @media (max-width: 480px) {
+    .device-frame { background: var(--paper); }
+    .device-inner { box-shadow: none; max-width: 100%; }
+  }
+  @keyframes cheeriFadeIn { from { opacity: 0 } to { opacity: 1 } }
+
+  /* Trademark superscript — Cheerific™ wherever it appears as text. */
+  .tm {
+    font-size: 0.55em;
+    vertical-align: super;
+    line-height: 0;
+    margin-left: 0.05em;
+    font-weight: inherit;
+  }
+
+  /* Mobile tree: drop the phone frame the moment we leave mobile. */
+  @media (min-width: 481px) {
+    .device-frame {
+      background: var(--paper) !important;
+      display: block !important;
+    }
+    .device-inner {
+      max-width: 100% !important;
+      box-shadow: none !important;
+    }
+  }
+
+  /* Mobile tree, tablet width (481–1023): keep an editorial single-column. */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .rail {
+      max-width: 720px !important;
+      padding-left: 32px !important;
+      padding-right: 32px !important;
+      width: 100% !important;
+      box-sizing: border-box !important;
+    }
+    .rail-wide {
+      max-width: 1080px !important;
+      padding-left: 32px !important;
+      padding-right: 32px !important;
+      width: 100% !important;
+      box-sizing: border-box !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+    .ingredients-grid {
+      grid-template-columns: 1fr 1fr !important;
+      gap: 18px !important;
+    }
+    .testimonials-list {
+      display: grid !important;
+      grid-template-columns: 1fr 1fr !important;
+      gap: 16px !important;
+    }
+  }
+
+  /* ─── Mobile / desktop tree toggle (last so it wins the cascade) ───
+     Two parallel React trees mount; CSS hides one. Mobile shows below 1024px;
+     desktop above. */
+  .desktop-only { display: none !important; }
+  @media (min-width: 1024px) {
+    .mobile-only { display: none !important; }
+    .desktop-only { display: block !important; }
+  }
+</style>
+<script>
+  /* richify: render plain string content with **bold**, *italic*, and an
+     auto-inserted styled <sup>™</sup> after each "Cheerific". Use anywhere
+     copy comes in as a string (Reasons body, testimonial quotes, etc.).
+     `tmify` is kept as an alias for backward compat. */
+  window.richify = function richify(input) {
+    if (typeof input !== 'string') return input;
+    const str = input.replace(/(Cheerific)\s*[™]/g, '$1');
+
+    // Tokenize ***bold-italic***, **bold**, *italic*.
+    const segs = [];
+    let i = 0;
+    while (i < str.length) {
+      if (str.slice(i, i + 3) === '***') {
+        const end = str.indexOf('***', i + 3);
+        if (end !== -1) {
+          segs.push({ k: 'bi', t: str.slice(i + 3, end) });
+          i = end + 3; continue;
+        }
+      }
+      if (str.slice(i, i + 2) === '**') {
+        const end = str.indexOf('**', i + 2);
+        if (end !== -1) {
+          segs.push({ k: 'b', t: str.slice(i + 2, end) });
+          i = end + 2; continue;
+        }
+      }
+      if (str[i] === '*') {
+        const end = str.indexOf('*', i + 1);
+        if (end !== -1 && !str.slice(i + 1, end).includes('*')) {
+          segs.push({ k: 'i', t: str.slice(i + 1, end) });
+          i = end + 1; continue;
+        }
+      }
+      let j = i;
+      if (str[j] === '*') j++; // orphan asterisk (e.g. footnote *) — consume so we make progress
+      while (j < str.length && str[j] !== '*') j++;
+      segs.push({ k: 't', t: str.slice(i, j) });
+      i = j;
+    }
+
+    let n = 0;
+    const inject = (text) => {
+      const parts = text.split('Cheerific');
+      if (parts.length === 1) return [text];
+      const out = [];
+      parts.forEach((p, idx) => {
+        if (idx > 0) {
+          out.push('Cheerific');
+          out.push(React.createElement('sup', { key: 'tm-' + (n++), className: 'tm' }, '™'));
+        }
+        if (p !== '') out.push(p);
+      });
+      return out;
+    };
+
+    const nodes = [];
+    segs.forEach((s, idx) => {
+      const inner = inject(s.t);
+      if (s.k === 'bi') nodes.push(React.createElement('strong', { key: 'bi-' + idx }, React.createElement('em', null, ...inner)));
+      else if (s.k === 'b') nodes.push(React.createElement('strong', { key: 'b-' + idx }, ...inner));
+      else if (s.k === 'i') nodes.push(React.createElement('em', { key: 'i-' + idx }, ...inner));
+      else inner.forEach((c) => nodes.push(c));
+    });
+
+    return React.createElement(React.Fragment, null, ...nodes);
+  };
+  window.tmify = window.richify;
+</script>
+<script>
+  /* Shopify checkout config — single source of truth for all buy CTAs.
+     Edit values here when variant IDs / plans change. */
+  /* UTM / click-id passer — captures tracking params from the landing-page URL
+     (or from sessionStorage if the user landed earlier) and forwards them to
+     the Shopify checkout so attribution survives the hand-off. */
+  window.CHEERI_TRACKING = (function () {
+    const KEYS = [
+      'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'utm_id',
+      'fbclid', 'gclid', 'gbraid', 'wbraid', 'ttclid', 'msclkid', 'irclickid',
+      'ref', 'referrer', 'aff', 'affiliate', 'sub_id', 'subid', 'click_id', 'clickid',
+    ];
+    const STORAGE_KEY = 'cheeri_tracking_params';
+    let stored = {};
+    try { stored = JSON.parse(sessionStorage.getItem(STORAGE_KEY) || '{}'); } catch (e) {}
+
+    const url = new URLSearchParams(window.location.search);
+    const fresh = {};
+    KEYS.forEach((k) => { const v = url.get(k); if (v) fresh[k] = v; });
+    const merged = Object.assign({}, stored, fresh);
+
+    if (Object.keys(fresh).length) {
+      try { sessionStorage.setItem(STORAGE_KEY, JSON.stringify(merged)); } catch (e) {}
+    }
+
+    return {
+      params: merged,
+      qs() {
+        const p = new URLSearchParams();
+        Object.keys(this.params).forEach((k) => p.set(k, this.params[k]));
+        const s = p.toString();
+        return s ? '?' + s : '';
+      },
+    };
+  })();
+
+  /* Shopify checkout config — single source of truth for all buy CTAs.
+     Edit values here when variant IDs / plans change. */
+  window.CHEERI_SHOP = {
+    domain: 'https://www.cheerific.com',
+    variantId: '51477251424554',
+    subscriptionPlanId: '10359177514',
+    checkoutUrl(plan) {
+      const base = this.domain + '/cart/clear?return_to=';
+      const sellingPlan = plan === 'subscription' ? '&items[][selling_plan]=' + this.subscriptionPlanId : '';
+      const trackingQs = window.CHEERI_TRACKING.qs();
+      const checkoutPath = '/checkout' + trackingQs;
+      const inner = '/cart/add?items[][id]=' + this.variantId + '&items[][quantity]=1' + sellingPlan + '&return_to=' + encodeURIComponent(checkoutPath);
+      return base + encodeURIComponent(inner);
+    },
+    go(plan) {
+      window.location.href = this.checkoutUrl(plan);
+    },
+  };
+</script>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel" src="components/Intro.jsx"></script>
+<script type="text/babel" src="components/Hero.jsx"></script>
+<script type="text/babel" src="components/Reasons.jsx"></script>
+<script type="text/babel" src="components/CloseOffer.jsx"></script>
+<script type="text/babel" src="components/Buy.jsx"></script>
+<script type="text/babel" src="components/Ingredients.jsx"></script>
+<script type="text/babel" src="components/Testimonials.jsx"></script>
+<script type="text/babel" src="components/Faq.jsx"></script>
+<script type="text/babel" src="components/FinalCta.jsx"></script>
+<script type="text/babel" src="components/Footer.jsx"></script>
+
+<script type="text/babel" src="components-desktop/HeroDesktop.jsx"></script>
+<script type="text/babel" src="components-desktop/ReasonsDesktop.jsx"></script>
+<script type="text/babel" src="components-desktop/CloseOfferDesktop.jsx"></script>
+<script type="text/babel" src="components-desktop/BuyDesktop.jsx"></script>
+<script type="text/babel" src="components-desktop/IngredientsDesktop.jsx"></script>
+<script type="text/babel" src="components-desktop/TestimonialsFinalFooterDesktop.jsx"></script>
+
+<script>
+  /* Dev cache-bust: tag every text/babel src with a fresh timestamp so the
+     in-browser Babel transformer always fetches the latest JSX. Browsers
+     don't auto-fetch type="text/babel" — Babel does it via XHR on load —
+     so rewriting the src here takes effect before any fetch. */
+  document.querySelectorAll('script[type="text/babel"][src]').forEach((s) => {
+    const u = new URL(s.getAttribute('src'), location.href);
+    u.searchParams.set('_t', Date.now());
+    s.setAttribute('src', u.toString());
+  });
+</script>
+
+<script type="text/babel">
+  function MobileApp() {
+    return (
+      <div className="device-frame mobile-only">
+        <div className="device-inner">
+          <PromoBar />
+          <Hero variant="stacked" />
+          <Reasons />
+          <CloseOffer />
+          <Buy />
+          <Guarantee />
+          <Ingredients />
+          <Testimonials />
+          <Faq />
+          <FinalCta />
+          <Footer />
+        </div>
+      </div>
+    );
+  }
+
+  function DesktopApp() {
+    return (
+      <div className="desktop-only">
+        <PromoBarD />
+        <NavD />
+        <HeroD variant="split" />
+        <IntroD />
+        <ReasonsD />
+        <CloseOfferD />
+        <BuyD />
+        <IngredientsD />
+        <TestimonialsD />
+        <FinalCtaD />
+        <FooterD />
+      </div>
+    );
+  }
+
+  function App() {
+    return (
+      <>
+        <MobileApp />
+        <DesktopApp />
+      </>
+    );
+  }
+
+  ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>
