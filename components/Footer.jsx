@@ -65,7 +65,7 @@ function Footer() {
     <footer style={footerStyles.footer} data-screen-label="09 Footer">
       <div style={footerStyles.inner}>
         <div style={footerStyles.brandRow}>
-          <img src="assets/cheerific-logo.avif" alt="Cheerific" style={footerStyles.brandImg} />
+          <img src="cheerific-logo.avif" alt="Cheerific" style={footerStyles.brandImg} />
           <div style={footerStyles.legalRow}>
             <a href="https://www.cheerific.com/policies/privacy-policy" target="_blank" rel="noopener noreferrer" style={footerStyles.legalLink}>Privacy Policy</a>
             <a href="https://www.cheerific.com/policies/terms-of-service" target="_blank" rel="noopener noreferrer" style={footerStyles.legalLink}>Terms of Service</a>

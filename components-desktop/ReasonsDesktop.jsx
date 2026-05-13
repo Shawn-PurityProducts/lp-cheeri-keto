@@ -299,7 +299,7 @@ function ReasonsD() {
             headline={r.headline}
             body={r.body}
             imageLabel={`REASON 0${r.n} · IMAGE`}
-            imageSrc={(r.n === 3 || r.n === 4 || r.n === 6) ? `assets/reasons/r${r.n}.webp` : `assets/reasons/r${r.n}.png`}
+            imageSrc={(r.n === 3 || r.n === 4 || r.n === 6) ? `reasons/r${r.n}.webp` : `reasons/r${r.n}.png`}
           />
         ))}
       </div>

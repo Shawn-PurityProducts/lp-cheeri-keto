@@ -360,7 +360,7 @@ function PromoBarD() {
 function NavD() {
   return (
     <nav style={heroDStyles.nav}>
-      <img src="assets/cheerific-logo.avif" alt="Cheerific" style={heroDStyles.navLogo} />
+      <img src="cheerific-logo.avif" alt="Cheerific" style={heroDStyles.navLogo} />
     </nav>
   );
 }
@@ -455,7 +455,7 @@ function HeroEditorialD() {
           <div style={heroDStyles.editorialRule}></div>
           <div style={heroDStyles.editorialImg}>
             <img
-              src="assets/product/p2.webp"
+              src="product/p2.webp"
               alt="Cheerific lifestyle"
               style={{
                 position: 'absolute', inset: 0, width: '100%', height: '100%',
@@ -482,7 +482,7 @@ function HeroCoverD() {
     <section data-screen-label="01 Hero · cover" style={heroDStyles.section}>
       <div style={heroDStyles.coverWrap}>
         <img
-          src="assets/product/p1-hero-v2.webp"
+          src="product/p1-hero-new.png"
           alt=""
           aria-hidden="true"
           style={{

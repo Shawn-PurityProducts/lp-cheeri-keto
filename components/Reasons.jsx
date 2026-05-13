@@ -188,7 +188,7 @@ function Reasons() {
         eyebrow="Reason 01"
         headline={'The \u201cKeto-Friendly\u201d Chocolate In Your Pantry Is The Thing Breaking Your Keto'}
         imageLabel="REASON 01 · IMAGE"
-        imageSrc="assets/reasons/mobile/r1.webp"
+        imageSrc="reasons/mobile/r1.webp"
         body={[
           'The bars with **the green leaf on the wrapper.** The chips with **the \u201cketo-friendly\u201d label.** The sugar-free chocolate squares at the checkout aisle of your health food store.',
           'You bought them because **you were doing the right thing.** You were swapping real chocolate for \u201cketo chocolate.\u201d **You were being good.**',
@@ -291,7 +291,7 @@ function Reasons() {
           eyebrow={`Reason 0${r.n}`}
           headline={r.headline}
           imageLabel={`REASON 0${r.n} · IMAGE`}
-          imageSrc={`assets/reasons/mobile/r${r.n}.webp`}
+          imageSrc={`reasons/mobile/r${r.n}.webp`}
           body={r.body}
         />
       ))}

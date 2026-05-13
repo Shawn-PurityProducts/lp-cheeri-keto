@@ -259,28 +259,28 @@ function Ingredients() {
   const tiles = [
     {
       category: 'Chocamine\u00ae',
-      imgSrc: 'assets/ingredients/chocamine.webp',
+      imgSrc: 'ingredients/chocamine.webp',
       imgAlt: 'Cocoa powder',
       description:
         'A cocoa extract that delivers the feel-good energy, focus-support, and mood support of chocolate \u2014 without jitters or a sugar crash.*',
     },
     {
       category: 'L. gasseri CP2305\u00ae',
-      imgSrc: 'assets/ingredients/cp2305.webp',
+      imgSrc: 'ingredients/cp2305.webp',
       imgAlt: 'L. gasseri CP2305 psychobiotic illustration',
       description:
         'A clinically studied psychobiotic (heat-treated probiotic with mind-body benefits) shown to support calm mood, digestive comfort under stress, and balanced energy through the gut\u2013brain connection.*',
     },
     {
       category: 'Organic Greens & Fruits Blend',
-      imgSrc: 'assets/ingredients/greens-fruits.webp',
+      imgSrc: 'ingredients/greens-fruits.webp',
       imgAlt: 'Close-up of fresh greens, tomatoes, apple, and figs',
       description:
         'Organic blend of Chlorella, Apple, Raspberry, Strawberry, Tomato, Kale, Carrot, Spinach, Broccoli, and Beet \u2014 a nutrient-rich superfood mix for daily wellness.',
     },
     {
       category: 'Organic Antioxidant Phytonutrient Blend',
-      imgSrc: 'assets/ingredients/antioxidant-blend.webp',
+      imgSrc: 'ingredients/antioxidant-blend.webp',
       imgAlt: 'Mixed berries: blueberries, raspberries, blackberries, strawberries',
       description:
         'A nutrient-rich organic fruit and green tea blend featuring Apple, Acerola Cherry, Blueberry, Pomegranate, Acai, and Cranberry for antioxidant support.',
@@ -335,7 +335,7 @@ function Ingredients() {
               {'\u00d7'}
             </button>
             <img
-              src="assets/supplement-facts.webp"
+              src="product/p3.webp"
               alt="Cheerific supplement facts panel"
               style={ingredientsStyles.overlayImg}
             />

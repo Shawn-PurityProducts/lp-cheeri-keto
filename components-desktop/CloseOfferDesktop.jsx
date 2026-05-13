@@ -2,7 +2,7 @@
 
 const closeDStyles = {
   section: {
-    background: 'url(assets/bg-cocoa.webp) center/cover no-repeat var(--paper-4)',
+    background: 'url(bg-cocoa.webp) center/cover no-repeat var(--paper-4)',
     padding: '80px 32px 120px',
     borderTop: '1px solid var(--rule)',
   },

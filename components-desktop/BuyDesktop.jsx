@@ -496,11 +496,11 @@ const buyDStyles = {
 
 function BuyImageD() {
   const photos = [
-    'assets/product/p1-hero-v2.webp',
-    'assets/product/how-new.webp',
-    'assets/supplement-facts.webp',
-    'assets/product/tile-testimonial.webp',
-    'assets/product/p6.webp',
+    'product/p1-hero-new.png',
+    'product/how-new.png',
+    'product/p3.webp',
+    'product/tile-testimonial.png',
+    'product/p5.webp',
   ];
   const [active, setActive] = React.useState(0);
   return (

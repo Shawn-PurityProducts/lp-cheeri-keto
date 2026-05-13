@@ -192,28 +192,28 @@ function IngredientsD() {
   const tiles = [
     {
       category: 'Chocamine\u00ae',
-      imgSrc: 'assets/ingredients/chocamine.webp',
+      imgSrc: 'ingredients/chocamine.webp',
       imgAlt: 'Cocoa powder',
       description:
         'A cocoa extract that delivers the feel-good energy, focus-support, and mood support of chocolate — without jitters or a sugar crash.*',
     },
     {
       category: 'L. gasseri CP2305\u00ae',
-      imgSrc: 'assets/ingredients/cp2305.webp',
+      imgSrc: 'ingredients/cp2305.webp',
       imgAlt: 'L. gasseri CP2305 psychobiotic',
       description:
         'A clinically studied psychobiotic shown to support calm mood, digestive comfort under stress, and balanced energy through the gut–brain connection.*',
     },
     {
       category: 'Greens & Fruits Blend',
-      imgSrc: 'assets/ingredients/greens-fruits.webp',
+      imgSrc: 'ingredients/greens-fruits.webp',
       imgAlt: 'Greens, tomatoes, apple, figs',
       description:
         'Organic Chlorella, Apple, Raspberry, Strawberry, Tomato, Kale, Carrot, Spinach, Broccoli, Beet — a nutrient-rich superfood mix for daily wellness.',
     },
     {
       category: 'Antioxidant Blend',
-      imgSrc: 'assets/ingredients/antioxidant-blend.webp',
+      imgSrc: 'ingredients/antioxidant-blend.webp',
       imgAlt: 'Mixed berries',
       description:
         'A nutrient-rich organic fruit and green tea blend featuring Apple, Acerola Cherry, Blueberry, Pomegranate, Acai, and Cranberry for antioxidant support.',
@@ -261,7 +261,7 @@ function IngredientsD() {
               {'\u00d7'}
             </button>
             <img
-              src="assets/supplement-facts.webp"
+              src="product/p3.webp"
               alt="Cheerific supplement facts panel"
               style={ingDStyles.overlayImg}
             />

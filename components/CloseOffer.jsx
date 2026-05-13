@@ -3,7 +3,7 @@
 
 const closeOfferStyles = {
   section: {
-    background: 'url(assets/bg-cocoa.webp) center/cover no-repeat var(--paper-4)',
+    background: 'url(bg-cocoa.webp) center/cover no-repeat var(--paper-4)',
     padding: '32px 14px 40px',
   },
   inner: {
