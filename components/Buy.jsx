@@ -473,17 +473,15 @@ function Buy() {
             id="subscription"
             active={plan === 'subscription'}
             onSelect={setPlan}
-            badge="50% off · Most popular"
+            badge="50% OFF · MOST POPULAR"
             title="Subscribe & Save"
             priceNow="$24.95"
-            priceWas="$49.95"
-            desc="Delivered every 30 days. Cancel or pause anytime."
+            priceWas="$39.95"
+            desc="Just $1.66 per chocolate reset every 30 days"
             perks={[
-              '50% off your first order',
-              '20% off every future order',
-              'Free shipping, always',
-              'A free gift with your first delivery',
-              'That\u2019s less than 83¢ a day for a creamy mug of chocolate built for a woman over 40 doing keto on her own terms.',
+              <><strong style={{color:'var(--brand-green)'}}>50% off today</strong> + 20% off every future delivery</>,
+              'Countertop ritual dispenser + free shaker cup included',
+              <><strong style={{color:'var(--brand-green)'}}>FREE shipping</strong> · adjust sachets anytime · pause/cancel anytime</>,
             ]}
           />
           <BuyOption
@@ -492,17 +490,12 @@ function Buy() {
             onSelect={setPlan}
             title="One-Time Purchase"
             priceNow="$49.95"
-            desc="One jar. No subscription. No commitment."
+            desc="$3.33 per day"
           />
         </div>
 
         <button type="button" style={buyStyles.cta} onClick={() => window.CHEERI_SHOP.go(plan)}>
-          Add to cart — {ctaPrice}
-          <span style={buyStyles.ctaSub}>
-            {plan === 'subscription'
-              ? '30-day money-back guarantee · Cancel anytime'
-              : '30-day money-back guarantee'}
-          </span>
+          START NOW
         </button>
           </div>
         </div>
