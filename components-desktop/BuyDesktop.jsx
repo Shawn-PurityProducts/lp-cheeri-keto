@@ -729,7 +729,7 @@ function BuyD() {
                   <li style={buyDStyles.perk}><span style={buyDStyles.perkCheck}>{'\u2713'}</span><span>Countertop ritual dispenser + free shaker cup included</span></li>
                   <li style={buyDStyles.perk}><span style={buyDStyles.perkCheck}>{'\u2713'}</span><span><strong style={{color:'var(--brand-green)'}}>FREE shipping</strong> · adjust sachets anytime · pause/cancel anytime</span></li>
                 </ul>
-                <button type="button" style={buyDStyles.cta} onClick={() => window.CHEERI_SHOP.go('subscription')}>
+                <button type="button" style={buyDStyles.cta} onClick={() => { window.location.href = 'https://www.cheerific.com/cart/clear?return_to=%2Fcart%2Fadd%3Fitems%5B%5D%5Bid%5D%3D51514508673322%26items%5B%5D%5Bquantity%5D%3D1%26items%5B%5D%5Bselling_plan%5D%3D10800759082%26return_to%3D%2Fcheckout'; }}>
                   START NOW
                 </button>
                 <span style={buyDStyles.discountPill}>
@@ -741,7 +741,7 @@ function BuyD() {
                 type="button"
                 onClick={() => {
                   if (plan === 'onetime') {
-                    window.CHEERI_SHOP.go('onetime');
+                    window.location.href = 'https://www.cheerific.com/cart/clear?return_to=%2Fcart%2Fadd%3Fitems%5B%5D%5Bid%5D%3D51514508673322%26items%5B%5D%5Bquantity%5D%3D1%26return_to%3D%2Fcheckout';
                   } else {
                     setPlan('onetime');
                   }
