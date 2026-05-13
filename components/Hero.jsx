@@ -287,7 +287,7 @@ function Nav() {
         </button>
       </div>
       <div style={heroStyles.logoBox}>
-        <img src="assets/cheerific-logo.avif" alt="Cheerific" style={heroStyles.logoImg} />
+        <img src="cheerific-logo.avif" alt="Cheerific" style={heroStyles.logoImg} />
       </div>
       <div style={heroStyles.navRight}>
         <span style={heroStyles.navIcon}>♡</span>
@@ -389,7 +389,7 @@ function HeroStacked() {
     <section style={heroStyles.hero} data-screen-label="01 Hero · stacked">
       <div style={heroStyles.heroInner} className="rail">
         <div style={heroStyles.brandMark}>
-          <img src="assets/cheerific-logo.avif" alt="Cheerific" style={heroStyles.brandMarkImg} />
+          <img src="cheerific-logo.avif" alt="Cheerific" style={heroStyles.brandMarkImg} />
         </div>
         <div className="hero-stacked-row">
           <div>
@@ -400,7 +400,7 @@ function HeroStacked() {
           </div>
           <div className="hero-image-wrap">
             <ImagePlaceholder
-              src="assets/product/hero-m-new.webp"
+              src="product/hero-m-new.webp"
               alt="Cheerific"
             />
           </div>

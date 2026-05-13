@@ -428,7 +428,7 @@ function FooterD() {
     <footer style={ftDStyles.footer} data-screen-label="09 Footer">
       <div style={ftDStyles.inner}>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 18, padding: '8px 0 28px' }}>
-          <img src="assets/cheerific-logo.avif" alt="Cheerific" style={ftDStyles.brandImg} />
+          <img src="cheerific-logo.avif" alt="Cheerific" style={ftDStyles.brandImg} />
           <div style={{ ...ftDStyles.legalRow, justifyContent: 'center' }}>
             <a href="https://www.cheerific.com/policies/privacy-policy" target="_blank" rel="noopener noreferrer" style={ftDStyles.legalLink}>Privacy Policy</a>
             <a href="https://www.cheerific.com/policies/terms-of-service" target="_blank" rel="noopener noreferrer" style={ftDStyles.legalLink}>Terms of Service</a>
