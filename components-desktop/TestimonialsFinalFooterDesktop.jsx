@@ -430,9 +430,9 @@ function FooterD() {
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 18, padding: '8px 0 28px' }}>
           <img src="cheerific-logo.avif" alt="Cheerific" style={ftDStyles.brandImg} />
           <div style={{ ...ftDStyles.legalRow, justifyContent: 'center' }}>
-            <a href="https://www.cheerific.com/policies/privacy-policy?utm_source=vercel&utm_medium=landing_page&utm_campaign=pm" target="_blank" rel="noopener noreferrer" style={ftDStyles.legalLink}>Privacy Policy</a>
-            <a href="https://www.cheerific.com/policies/terms-of-service?utm_source=vercel&utm_medium=landing_page&utm_campaign=pm" target="_blank" rel="noopener noreferrer" style={ftDStyles.legalLink}>Terms of Service</a>
-            <a href="https://www.cheerific.com/pages/contact?utm_source=vercel&utm_medium=landing_page&utm_campaign=pm" target="_blank" rel="noopener noreferrer" style={ftDStyles.legalLink}>Contact Us</a>
+            <a href="https://www.cheerific.com/policies/privacy-policy?utm_source=vercel&utm_medium=landing_page&utm_campaign=keto" target="_blank" rel="noopener noreferrer" style={ftDStyles.legalLink}>Privacy Policy</a>
+            <a href="https://www.cheerific.com/policies/terms-of-service?utm_source=vercel&utm_medium=landing_page&utm_campaign=keto" target="_blank" rel="noopener noreferrer" style={ftDStyles.legalLink}>Terms of Service</a>
+            <a href="https://www.cheerific.com/pages/contact?utm_source=vercel&utm_medium=landing_page&utm_campaign=keto" target="_blank" rel="noopener noreferrer" style={ftDStyles.legalLink}>Contact Us</a>
           </div>
         </div>
 

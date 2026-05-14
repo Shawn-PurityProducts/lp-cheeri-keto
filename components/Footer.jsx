@@ -67,9 +67,9 @@ function Footer() {
         <div style={footerStyles.brandRow}>
           <img src="cheerific-logo.avif" alt="Cheerific" style={footerStyles.brandImg} />
           <div style={footerStyles.legalRow}>
-            <a href="https://www.cheerific.com/policies/privacy-policy?utm_source=vercel&utm_medium=landing_page&utm_campaign=pm" target="_blank" rel="noopener noreferrer" style={footerStyles.legalLink}>Privacy Policy</a>
-            <a href="https://www.cheerific.com/policies/terms-of-service?utm_source=vercel&utm_medium=landing_page&utm_campaign=pm" target="_blank" rel="noopener noreferrer" style={footerStyles.legalLink}>Terms of Service</a>
-            <a href="https://www.cheerific.com/pages/contact?utm_source=vercel&utm_medium=landing_page&utm_campaign=pm" target="_blank" rel="noopener noreferrer" style={footerStyles.legalLink}>Contact Us</a>
+            <a href="https://www.cheerific.com/policies/privacy-policy?utm_source=vercel&utm_medium=landing_page&utm_campaign=keto" target="_blank" rel="noopener noreferrer" style={footerStyles.legalLink}>Privacy Policy</a>
+            <a href="https://www.cheerific.com/policies/terms-of-service?utm_source=vercel&utm_medium=landing_page&utm_campaign=keto" target="_blank" rel="noopener noreferrer" style={footerStyles.legalLink}>Terms of Service</a>
+            <a href="https://www.cheerific.com/pages/contact?utm_source=vercel&utm_medium=landing_page&utm_campaign=keto" target="_blank" rel="noopener noreferrer" style={footerStyles.legalLink}>Contact Us</a>
           </div>
         </div>
 
