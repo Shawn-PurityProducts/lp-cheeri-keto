@@ -496,8 +496,8 @@ function Buy() {
 
         <button type="button" style={buyStyles.cta} onClick={() => {
           window.location.href = plan === 'subscription'
-            ? 'https://www.cheerific.com/cart/clear?return_to=%2Fcart%2Fadd%3Fitems%5B%5D%5Bid%5D%3D51514508673322%26items%5B%5D%5Bquantity%5D%3D1%26items%5B%5D%5Bselling_plan%5D%3D10800759082%26return_to%3D%2Fcheckout'
-            : 'https://www.cheerific.com/cart/clear?return_to=%2Fcart%2Fadd%3Fitems%5B%5D%5Bid%5D%3D51514508673322%26items%5B%5D%5Bquantity%5D%3D1%26return_to%3D%2Fcheckout';
+            ? 'https://www.cheerific.com/cart/clear?return_to=%2Fcart%2Fadd%3Fitems%5B%5D%5Bid%5D%3D51514508673322%26items%5B%5D%5Bquantity%5D%3D1%26items%5B%5D%5Bselling_plan%5D%3D10800759082%26return_to%3D%2Fcheckout&utm_source=vercel&utm_medium=landing_page&utm_campaign=pm'
+            : 'https://www.cheerific.com/cart/clear?return_to=%2Fcart%2Fadd%3Fitems%5B%5D%5Bid%5D%3D51514508673322%26items%5B%5D%5Bquantity%5D%3D1%26return_to%3D%2Fcheckout&utm_source=vercel&utm_medium=landing_page&utm_campaign=pm';
         }}>
           START NOW
         </button>
