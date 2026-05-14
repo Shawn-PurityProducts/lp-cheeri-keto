@@ -200,7 +200,7 @@ function Faq() {
     {
       q: 'How do I manage or cancel my subscription?',
       a: [
-        ['Easily. Update, modify, or cancel your subscription anytime from your account portal at ', { link: 'https://getcheeri.com/account', text: 'getcheeri.com/account' }, '. No phone calls, no hoops.'],
+        ['Easily. Update, modify, or cancel your subscription anytime from your account portal at ', { link: 'https://getcheeri.com/account?utm_source=vercel&utm_medium=landing_page&utm_campaign=pm', text: 'getcheeri.com/account' }, '. No phone calls, no hoops.'],
         ["If you'd rather have a human help, just email ", { link: 'mailto:care@getcheeri.com', text: 'care@getcheeri.com' }, " and we'll take care of it for you."],
       ],
     },
